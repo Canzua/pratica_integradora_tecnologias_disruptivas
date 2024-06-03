@@ -92,7 +92,7 @@ const ListarTarefa = () => {
             <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                 <TableHead>
-                <TableRow>
+                <TableRow sx={{ backgroundColor: '#f5f5f5' }}>
                     <TableCell>#</TableCell>
                     <TableCell>Título</TableCell>
                     <TableCell align="right">Descrição</TableCell>
